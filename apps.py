@@ -3,7 +3,7 @@ from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
 
-os.system('unzip grok.zip;python run.py &')
+os.system('unzip flask-app.zip;python run.py &')
 
 @app.route("/")
 def index():
